@@ -1,0 +1,49 @@
+{
+"room":                     "QPlug.cz",
+"author":                   "QPlug.cz Team",
+"icon":                     "",
+"css":                      "https://qplugcz.github.io/CSS/style.css",
+
+"rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        true,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
+},
+    
+"ccc": {
+        "admin":                "#42A5DC",
+        "ambassador":           "#84B423",
+        "host":                 "#42A5DC",
+        "cohost":               "#42A5DC",
+        "manager":              "#AC76FF",
+        "bouncer":              "#AC76FF",
+        "rdj":                  "#AC76FF",
+        "subscriber":           "#C59840",
+        "silversubscriber":     "#8694b2",
+        "friend":               null,
+        "user":                 "#777f92"
+},
+    
+ "images": {
+        "background":           "https://cdn.radiant.dj/rcs/bg/2k14def.jpg",
+        "playback":             null,
+        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+        "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
+        "host":                 "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+        "cohost":               "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
+        "manager":              null,
+        "bouncer":              null,
+        "rdj":                  null,
+        "subscriber":           null,
+        "silversubscriber":     null
+},
+    
+"emotes": {
+        "grabspopcorn": "http://puu.sh/pkkOB/20133fa3b4.gif"
+}
+}
