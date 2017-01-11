@@ -2,7 +2,7 @@
 "room":                     "QPlug.cz",
 "author":                   "QPlug.cz Team",
 "icon":                     "",
-"css":                      "https://qplugcz.github.io/CSS/style.css",
+"css":                      "https://qplugcz.github.io/style.css",
 
 "rules": {
         "allowAutorespond":     true,
