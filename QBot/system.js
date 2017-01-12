@@ -44,6 +44,40 @@ function advance(obj){
 $('#woot').click();
 }
 
+//                          VEDENIE                          //
+
+API.on(API.CHAT, woot);
+function woot(data){
+var msg = data.message;
+var fromid = data.uid;
+var falseying = "4635487";
+
+if(msg === ""+ prefix +"woot"){
+if(fromid == falseying){
+$('#woot').click();
+}
+else{
+API.sendChat("[@"+ from +"] Nemáš na to práva!");
+}
+}
+}
+
+API.on(API.CHAT, meh);
+function meh(data){
+var msg = data.message;
+var fromid = data.uid;
+var falseying = "4635487";
+
+if(msg === ""+ prefix +"meh"){
+if(fromid == falseying){
+$('#meh').click();
+}
+else{
+API.sendChat("[@"+ from +"] Nemáš na to práva!");
+}
+}
+}
+
 //                          BOUNCER                          //
 
 API.on(API.CHAT, bouncer);
