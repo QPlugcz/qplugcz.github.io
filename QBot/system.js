@@ -78,6 +78,42 @@ API.sendChat("[@"+ from +"] Nemáš na to práva!");
 }
 }
 
+API.on(API.CHAT, lock);
+function lock(data){
+var msg = data.message;
+var from = data.un;
+var fromid = data.uid;
+var falseying = "4635487";
+
+if(msg === ""+ prefix +"lock"){
+if(fromid == falseying){
+API.sendChat("[@"+ from +"] Uzamkol si zoznam!");
+setTimeout(function(){ API.moderateLockWaitList(true, false); }, 500);
+}
+else{
+API.sendChat("[@"+ from +"] Nemáš na to práva!");
+}
+}
+}
+
+API.on(API.CHAT, unlock);
+function unlock(data){
+var msg = data.message;
+var from = data.un;
+var fromid = data.uid;
+var falseying = "4635487";
+
+if(msg === ""+ prefix +"unlock"){
+if(fromid == falseying){
+API.sendChat("[@"+ from +"] Odomkol si zoznam!");
+setTimeout(function(){ API.moderateLockWaitList(false, false); }, 500);
+}
+else{
+API.sendChat("[@"+ from +"] Nemáš na to práva!");
+}
+}
+}
+
 //                          BOUNCER                          //
 
 API.on(API.CHAT, bouncer);
