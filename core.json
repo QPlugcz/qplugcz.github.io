@@ -16,9 +16,9 @@
 },
     
 "ccc": {
-        "admin":                "#42A5DC",
-        "ambassador":           "#89BE6C",
-        "host":                 "#AC76FF",
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 "#FF5555",
         "cohost":               "#AC76FF",
         "manager":              "#AC76FF",
         "bouncer":              "#AC76FF",
@@ -34,10 +34,10 @@
         "playback":             null,
         "admin":                null,
         "ambassador":           null,
-        "host":                 "https://qplugcz.github.io/qplug-vedenie.png",
-        "cohost":               null,
-        "manager":              null,
-        "bouncer":              null,
+        "host":                 "https://qplugcz.github.io/staff/qplug-vedenie.png",
+        "cohost":               "https://qplugcz.github.io/staff/qplug-host.png",
+        "manager":              "https://qplugcz.github.io/staff/qplug-manager.png",
+        "bouncer":              "https://qplugcz.github.io/staff/qplug-bouncer.png",
         "rdj":                  null,
         "subscriber":           null,
         "silversubscriber":     null
