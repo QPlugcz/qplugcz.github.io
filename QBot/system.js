@@ -37,13 +37,11 @@ if(videooff.length > 0){
 videooff[0].click();
 }
 
-API.on(API.USER_JOIN, function(user){
-var from = user.un;
+API.on(API.USER_JOIN, function(user) {
+var from = user.username;
 var fromid = user.id;
- 
-var wainn = "5154101";
 
-if(fromid === wainn){
+if (fromid === 5154101){
 API.sendChat("Zamestnanec "+ from +" sa práve pripojil do komunity!");
 }
 });
