@@ -39,11 +39,11 @@ videooff[0].click();
 
 API.on(API.USER_JOIN, function(user){
 var from = user.un;
-var fromid = user.uid;
+var fromid = user.id;
  
-var wain = "5154101";
+var wainn = "5154101";
 
-if(fromid === 5154101){
+if(fromid === wainn){
 API.sendChat("Zamestnanec "+ from +" sa práve pripojil do komunity!");
 }
 });
