@@ -50,6 +50,7 @@ $('#woot').click();
 API.on(API.CHAT, woot);
 function woot(data){
 var msg = data.message;
+var from = data.un;
 var fromid = data.uid;
 var falseying = "4635487";
 
@@ -66,6 +67,7 @@ API.sendChat("[@"+ from +"] Nemáš na to práva!");
 API.on(API.CHAT, meh);
 function meh(data){
 var msg = data.message;
+var from = data.un;
 var fromid = data.uid;
 var falseying = "4635487";
 
@@ -368,7 +370,21 @@ API.sendChat("[@"+ from +"] Tvoje ID je: "+ fromid +".");
 }
 }
 
-API.on(API.USER_JOIN, fancyName);
-function fancyName(obj){
-API.sendChat('Welcome back, ' + obj.username);
+API.on(API.CHAT, test);
+function test(data){
+var msg = data.message;
+var fromid = data.uid;
+var from = data.un;
+
+/*             wain      pinguin*/
+var users = ['5154101', '4006230'];
+
+if(msg === ""+ prefix +"test"){
+if(fromid == users){
+API.sendChat("[@"+ from +"] test123");
+}
+else{
+API.sendChat("[@"+ from +"] Nemáš na to práva!");
+}
+}
 }
