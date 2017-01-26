@@ -369,22 +369,3 @@ if(msg === ""+ prefix +"id"){
 API.sendChat("[@"+ from +"] Tvoje ID je: "+ fromid +".");
 }
 }
-
-API.on(API.CHAT, test);
-function test(data){
-var msg = data.message;
-var fromid = data.uid;
-var from = data.un;
-
-/*             wain      pinguin*/
-var users = ["5154101", "4006230"];
-
-if(msg === ""+ prefix +"test"){
-if(fromid == users){
-API.sendChat("[@"+ from +"] test123");
-}
-else{
-API.sendChat("[@"+ from +"] Nemáš na to práva!");
-}
-}
-}
