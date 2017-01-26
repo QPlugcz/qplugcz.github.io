@@ -82,6 +82,11 @@ stoptimer(timer);
 timer = window.setInterval(postmsg, time*1000);
 }
 
+function stoptimer(){
+window.clearInterval(timer);
+timer = null;
+}
+
 //                          AUTOWOOT                          //
 
 $('#woot').click();
