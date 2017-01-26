@@ -37,7 +37,18 @@ if(videooff.length > 0){
 videooff[0].click();
 }
 
-var msgs=[
+API.on(API.USER_JOIN, function(user){
+var from = user.un;
+var fromid = user.uid;
+ 
+var wain = "5154101";
+
+if(fromid === 5154101){
+API.sendChat("Zamestnanec "+ from +" sa práve pripojil do komunity!");
+}
+});
+
+/*var msgs=[
 "[ MINIHRA | @djs ] Vylúšti slovo ' dpglju '!"
 ];
 var time=1200; // SEKUNDY
@@ -85,7 +96,7 @@ timer = window.setInterval(postmsg, time*1000);
 function stoptimer(){
 window.clearInterval(timer);
 timer = null;
-}
+}*/
 
 //                          AUTOWOOT                          //
 
