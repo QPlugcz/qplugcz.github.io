@@ -126,7 +126,7 @@ var fromid = data.uid;
 var from = data.un;
 
 var pinguin = "4006230";
-var jassyk = "4115729";
+var jassyk = "5154101";
 var gyn = "3857912";
 var nyga = "3726868";
 var knedlik = "5014687";
@@ -154,7 +154,7 @@ var fromid = data.uid;
 var from = data.un;
 
 var pinguin = "4006230";
-var jassyk = "4115729";
+var jassyk = "5154101";
 var gyn = "3857912";
 var nyga = "3726868";
 var knedlik = "5014687";
