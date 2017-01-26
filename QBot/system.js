@@ -377,7 +377,7 @@ var fromid = data.uid;
 var from = data.un;
 
 /*             wain      pinguin*/
-var users = ['5154101', '4006230'];
+var users = ["5154101", "4006230"];
 
 if(msg === ""+ prefix +"test"){
 if(fromid == users){
