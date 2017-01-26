@@ -37,6 +37,51 @@ if(videooff.length > 0){
 videooff[0].click();
 }
 
+var msgs=[
+"[ MINIHRA | @djs ] Vylúšti slovo ' dpglju '!"
+];
+var time=1200; // SEKUNDY
+var timer;
+API.on(API.CHAT_COMMAND, command);
+API.sendChat("/startmsg");
+ 
+function command(value){
+console.log("command called");
+var commandfunction = "";
+
+if (value.indexOf(" ") == -1){
+var commandfunction = value.substring(value.indexOf("/")+1,value.length);
+}
+
+else{
+var commandfunction = value.substring(value.indexOf("/")+1,value.indexOf(" "));
+}
+
+var commandcontent =  value.substring(value.indexOf(" ")+1,value.length);
+
+console.log("commandfunction: " + commandfunction);
+console.log("commandcontent: " + commandcontent);
+
+switch(commandfunction){
+
+case "startmsg":
+console.log("startmsg called");
+refreshtimer();
+API.chatLog("Správy sa teraz odosielajú!",true);
+break;
+}
+}
+ 
+function postmsg(){
+var random = Math.floor((Math.random() * msgs.length));
+API.sendChat(msgs[random]);
+}
+ 
+function refreshtimer(){
+stoptimer(timer);
+timer = window.setInterval(postmsg, time*1000);
+}
+
 //                          AUTOWOOT                          //
 
 $('#woot').click();
@@ -46,6 +91,23 @@ $('#woot').click();
 }
 
 //                          VEDENIE                          //
+
+API.on(API.CHAT, slovicka);
+function slovicka(data){
+var msg = data.message;
+var from = data.un;
+var fromid = data.uid;
+var falseying = "4635487";
+
+if(msg === ""+ prefix +"minihra"){
+if(fromid == falseying){
+API.sendChat("[ MINIHRA | @djs ] Vylúšti slovo: ' dpglju '!");
+}
+else{
+API.sendChat("[@"+ from +"] Nemáš na to práva!");
+}
+}
+}
 
 API.on(API.CHAT, woot);
 function woot(data){
@@ -367,5 +429,16 @@ var fromid = data.uid;
 
 if(msg === ""+ prefix +"id"){
 API.sendChat("[@"+ from +"] Tvoje ID je: "+ fromid +".");
+}
+}
+
+API.on(API.CHAT, minihra1winner);
+function minihra1winner(data){
+var msg = data.message;
+var from = data.un;
+var fromid = data.uid;
+
+if(msg === "plugdj"){
+API.sendChat("[@"+ from +"] Výborne! Vylúštil si slovo 'plugdj' ako prvý. Gratulujeme! :)");
 }
 }
