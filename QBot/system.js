@@ -1,10 +1,11 @@
 //    COPYRIGHT»                         QPlug.cz 2017
-//    DEVELOPERS»                        FALSEYING
+//    DEVELOPERS»                        Hellbyte
 //    ROOM»                              https://plug.dj/plugdj-czsk
 //    PRIKAZY»                           Doplníme..
 
 API.chatLog("[ QBot ] Systém je spustený!");
 var prefix = "!";
+var prefixinfo = "?";
 
 //                          FUNKCIE                          //
 
@@ -365,4 +366,9 @@ var fromid = data.uid;
 if(msg === ""+ prefix +"id"){
 API.sendChat("[@"+ from +"] Tvoje ID je: "+ fromid +".");
 }
+}
+
+API.on(API.USER_JOIN, fancyName);
+function fancyName(obj){
+API.sendChat('Welcome back, ' + obj.username);
 }
