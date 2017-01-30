@@ -16,8 +16,8 @@
 },
     
 "ccc": {
-        "admin":                null,
-        "ambassador":           null,
+        "admin":                "#42A5DC",
+        "ambassador":           "#89BE6C",
         "host":                 "#AC76FF",
         "cohost":               "#AC76FF",
         "manager":              "#AC76FF",
@@ -26,7 +26,7 @@
         "subscriber":           "#C59840",
         "silversubscriber":     "#8694b2",
         "friend":               null,
-        "user":                 "#777f92"
+        "user":                 "silver"
 },
     
  "images": {
