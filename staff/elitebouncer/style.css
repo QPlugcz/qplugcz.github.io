@@ -1,18 +1,43 @@
-#user-lists .list .id-3664742.role-bouncer.is-staff .name{
+/*    COPYRIGHT»                         QPlug.cz 2017
+      DEVELOPERS»                        Hellbyte
+      ROOM»                              https://plug.dj/plugdj-czsk
+
+      Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
+-     Marvin (xBytez)
+-     Dom (Origin)
+-     Brett (sinful)
+*/
+
+#user-rollover.id- .meta{
+height: 135px !important;
+}
+
+#user-rollover.id- .meta:before{
+position: absolute;
+content: "Elite Bouncer";
+color: #808691;
+top: 117px;
+left: 108px;
+cursor: text;
+font-weight: 400;
+font-size: 12px;
+}
+
+#user-lists .list .id-.role-bouncer.is-staff .name{
 color: #FF5555 !important;
 }
 
-#user-lists .list.room .user.id-3664742 .icon-chat-bouncer{
+#user-lists .list.room .user.id- .icon-chat-bouncer{
 background: url("http://i.imgur.com/AAY9q08.png") !important;
 background-repeat: no-repeat !important;
 }
 
 
-[data-cid^="3664742-"] span.un.clickable{
+[data-cid^="ID-"] span.un.clickable{
 color: #FF5555 !important;
 }
 
-[data-cid^="3664742-"] .msg .from .icon-chat-bouncer{
+[data-cid^="ID-"] .msg .from .icon-chat-bouncer{
 background: url("http://i.imgur.com/AAY9q08.png") !important;
 background-repeat: no-repeat !important;
 }
