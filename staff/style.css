@@ -8,6 +8,8 @@
 -     Brett (sinful)
 */
 
+@import url("https://qplugcz.github.io/staff/elitebouncer/style.css");
+
 /* Hellbyte */
 #user-rollover.id-4635487 .thumb.large .avi{
 visibility: hidden;
@@ -96,6 +98,3 @@ cursor: text;
 font-weight: 400;
 font-size: 12px;
 }
-
-/* ELITNÝ BOUNCER */
-@import url("https://qplugcz.github.io/staff/elitebouncer/style.css");
