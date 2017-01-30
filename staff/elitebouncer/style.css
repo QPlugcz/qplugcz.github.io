@@ -23,7 +23,7 @@ font-weight: 400;
 font-size: 12px;
 }
 
-#user-lists .list .id-3664742.role-bouncer.is-staff .name{
+#user-lists .list .id-3664742.role-bouncer.is-staff .name:after{
 color: #009CDD !important;
 }
 
