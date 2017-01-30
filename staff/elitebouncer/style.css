@@ -8,13 +8,13 @@
 -     Brett (sinful)
 */
 
-#user-rollover.id- .meta{
+#user-rollover.id-3664742 .meta{
 height: 135px !important;
 }
 
-#user-rollover.id- .meta:before{
+#user-rollover.id-3664742 .meta:before{
 position: absolute;
-content: "Elite Bouncer";
+content: "Elitný Bouncer";
 color: #808691;
 top: 117px;
 left: 108px;
@@ -23,21 +23,20 @@ font-weight: 400;
 font-size: 12px;
 }
 
-#user-lists .list .id-.role-bouncer.is-staff .name{
-color: #FF5555 !important;
+#user-lists .list .id-3664742.role-bouncer.is-staff .name{
+color: #009CDD !important;
 }
 
-#user-lists .list.room .user.id- .icon-chat-bouncer{
-background: url("http://i.imgur.com/AAY9q08.png") !important;
+#user-lists .list.room .user.id-3664742 .icon-chat-bouncer{
+background: url("https://qplugcz.github.io/staff/elitebouncer/qplug-elitebouncer.png") !important;
 background-repeat: no-repeat !important;
 }
 
-
-[data-cid^="ID-"] span.un.clickable{
-color: #FF5555 !important;
+[data-cid^="3664742-"] span.un.clickable{
+color: #009CDD !important;
 }
 
-[data-cid^="ID-"] .msg .from .icon-chat-bouncer{
-background: url("http://i.imgur.com/AAY9q08.png") !important;
+[data-cid^="3664742-"] .msg .from .icon-chat-bouncer{
+background: url("https://qplugcz.github.io/staff/elitebouncer/qplug-elitebouncer.png") !important;
 background-repeat: no-repeat !important;
 }
