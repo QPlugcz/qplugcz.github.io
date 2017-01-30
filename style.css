@@ -11,6 +11,22 @@
 @import url("https://qplugcz.github.io/staff/style.css");
 @import url("https://qplugcz.github.io/vip/style.css");
 
-.is-staff{
-      color: #AC76FF
+#user-list .list .role-host{
+      color: #AC76FF;
+}
+
+#user-list .list .role-cohost{
+      color: #AC76FF;
+}
+
+#user-list .list .role-manager{
+      color: #AC76FF;
+}
+
+#user-list .list .role-bouncer{
+      color: #AC76FF;
+}
+
+#user-list .list .role-dj{
+      color: #AC76FF;
 }
