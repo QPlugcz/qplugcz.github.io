@@ -36,7 +36,7 @@
 }
 
 .is-subscriber.silver .name{
-      color: #8694b2;
+      color: red;
 }
 
 #user-lists .list .user:not(.is-staff) .name{
