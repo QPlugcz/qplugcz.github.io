@@ -48,3 +48,63 @@ visibility: hidden;
 position: relative;
 left: -20px;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#user-rollover.id-4635487 .meta,
+#user-rollover.id- .meta,
+#user-rollover.id- .meta,
+#user-rollover.id- .meta,
+#user-rollover.id- .meta,
+#user-rollover.id- .meta,
+#user-rollover.id- .meta{
+height: 135px !important;
+}
+
+/* MAJITEĽ */
+#user-rollover.id-4635487 .meta:before{
+position: absolute;
+content: "Majiteľ komunity";
+color: #808691;
+top: 117px;
+left: 108px;
+cursor: text;
+font-weight: 400;
+font-size: 12px;
+}
+
+/* HLAVNÝ VÝVOJÁR */
+#user-rollover.id- .meta:before{
+position: absolute;
+content: "Hlavný Vývojár";
+color: #808691;
+top: 117px;
+left: 108px;
+cursor: text;
+font-weight: 400;
+font-size: 12px;
+}
+
+/* VÝVOJÁR */
+#user-rollover.id- .meta:before{
+position: absolute;
+content: "Vývojár";
+color: #808691;
+top: 117px;
+left: 108px;
+cursor: text;
+font-weight: 400;
+font-size: 12px;
+}
+
+/* ELITNÝ BOUNCER */
+#user-rollover.id- .meta:before{
+position: absolute;
+content: "Elite Bouncer";
+color: #808691;
+top: 117px;
+left: 108px;
+cursor: text;
+font-weight: 400;
+font-size: 12px;
+}
