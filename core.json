@@ -18,7 +18,7 @@
 "ccc": {
         "admin":                null,
         "ambassador":           null,
-        "host":                 "#FF5555",
+        "host":                 "#AC76FF",
         "cohost":               "#AC76FF",
         "manager":              "#AC76FF",
         "bouncer":              "#AC76FF",
@@ -30,11 +30,11 @@
 },
     
  "images": {
-        "background":           "https://cdn.radiant.dj/rcs/bg/2k14def.jpg",
+        "background":           null,
         "playback":             null,
         "admin":                null,
         "ambassador":           null,
-        "host":                 "https://qplugcz.github.io/staff/qplug-vedenie.png",
+        "host":                 "https://qplugcz.github.io/staff/qplug-host.png",
         "cohost":               "https://qplugcz.github.io/staff/qplug-host.png",
         "manager":              "https://qplugcz.github.io/staff/qplug-manager.png",
         "bouncer":              "https://qplugcz.github.io/staff/qplug-bouncer.png",
