@@ -30,3 +30,15 @@
 #user-list .list .role-dj{
       color: #AC76FF;
 }
+
+.is-subscriber .name{
+      color: #C59840;
+}
+
+.is-subscriber.silver .name{
+      color: #8694b2;
+}
+
+#user-lists .list .user:not(.is-staff) .name{
+      color: silver;
+}
