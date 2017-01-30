@@ -23,8 +23,8 @@
         "manager":              null,
         "bouncer":              null,
         "rdj":                  null,
-        "subscriber":           "#C59840",
-        "silversubscriber":     "#8694b2",
+        "subscriber":           null,
+        "silversubscriber":     null,
         "friend":               null,
         "user":                 null
 },
