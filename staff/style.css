@@ -96,15 +96,3 @@ cursor: text;
 font-weight: 400;
 font-size: 12px;
 }
-
-/* ELITNÝ BOUNCER */
-#user-rollover.id- .meta:before{
-position: absolute;
-content: "Elite Bouncer";
-color: #808691;
-top: 117px;
-left: 108px;
-cursor: text;
-font-weight: 400;
-font-size: 12px;
-}
