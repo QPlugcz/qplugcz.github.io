@@ -1,1 +1,50 @@
+/*    COPYRIGHT»                         QPlug.cz 2017
+      DEVELOPERS»                        Hellbyte
+      ROOM»                              https://plug.dj/plugdj-czsk
 
+      Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
+-     Marvin (xBytez)
+-     Dom (Origin)
+-     Brett (sinful)
+*/
+
+/* Hellbyte */
+#user-rollover.id-4635487 .thumb.large .avi{
+visibility: hidden;
+}
+
+#user-rollover.id-4635487 .thumb.large .avi{
+visibility: visible;
+background: url("http://musicforeveryone.6f.sk/img/avatars/blue-dragon.png");
+}
+
+/* QPlug.cz */
+[data-cid^="23843691-"] span.un.clickable{
+color: #FFFFFF !important;
+}
+
+#user-rollover.id-23843691 .info .role span{
+visibility: hidden;
+position: relative;
+}
+
+#user-rollover.id-23843691 .info .role span:after{
+visibility: visible;
+content: "Bot";
+position: absolute;
+right: 2px;
+}
+
+#user-rollover.id-23843691 .info .role i{
+position: relative;
+left: 32px;
+}
+
+[data-cid^="23843691-"] .msg .from .icon-chat-manager{
+visibility: hidden;
+}
+
+[data-cid^="23843691-"] span.un.clickable{
+position: relative;
+left: -20px;
+}
