@@ -1,6 +1,6 @@
 /*    COPYRIGHT»                         QPlug.cz 2017
       DEVELOPERS»                        Hellbyte
-      ROOM»                              https://plug.dj/plugdj-czsk
+      ROOM»                              https://plug.dj/qplug-czsk
 
       Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
 -     Marvin (xBytez)
@@ -10,6 +10,84 @@
 
 @import url("https://qplugcz.github.io/staff/style.css");
 @import url("https://qplugcz.github.io/vip/style.css");
+
+/* ROOM SETTINGS */
+
+#room-settings{
+background: rgb(30, 30, 30);
+}
+
+#room-settings-menu{
+background: rgb(30, 30, 30);
+}
+
+#room-settings-menu .title{
+visibility: hidden;
+position: relative;
+}
+
+#room-settings-menu .title:after{
+position: relative;
+color: silver;
+font-size: 28px;
+visibility: visible;
+content: "\A" "Qρlυg.cz Nastavenia komunity";
+bottom: 70px;
+}
+
+#room-settings-menu .item.selected{
+background: #226268;
+/*color: #42A5DC;*/
+transition: 0.4s;
+}
+
+#room-settings-menu .item.selected:hover{
+box-shadow: inset 4px 0px 0px silver;
+}
+
+#room-settings .general-settings .option button.off{
+background: #226268;
+color: white;
+}
+
+#room-settings .general-settings .option button.on{
+border: 1px solid #226268;
+background: transparent;
+}
+
+#room-settings .general-settings .option.enabled button.off{
+border: 1px solid #226268;
+background: transparent;
+}
+
+#room-settings .general-settings .option.enabled button.on{
+background: #226268;
+color: white;
+}
+
+.chat-level.option .dropdown{
+background: transparent;
+box-shadow: inset 0px 0px 0px 1px #226268;
+}
+
+.dropdown dd{
+background: rgb(30, 30, 30);
+border-left: 1px solid #226268;
+border-right: 1px solid #226268;
+border-bottom: 1px solid #226268;
+}
+
+.dropdown dd .row{
+background: transparent;
+color: #808691;
+}
+
+.dropdown dd .row:hover{
+background: transparent;
+color: white;
+}
+
+/****************************************************************************************************************************/
 
 #user-list .list .role-host{
       color: #AC76FF;
