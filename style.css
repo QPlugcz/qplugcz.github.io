@@ -11,6 +11,14 @@
 @import url("https://qplugcz.github.io/staff/style.css");
 @import url("https://qplugcz.github.io/vip/style.css");
 
+/* DASHBOARD */
+
+#dashboard{
+background: linear-gradient(to top,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+
+/****************************************************************************************************************************/
+
 /* ROOM SETTINGS */
 
 #room-settings{
@@ -89,20 +97,22 @@ color: white;
 
 /****************************************************************************************************************************/
 
+/* USER LIST */
+
 #user-list .list .role-host{
-      color: #AC76FF;
+color: #AC76FF;
 }
 
 #user-list .list .role-cohost{
-      color: #AC76FF;
+color: #AC76FF;
 }
 
 #user-list .list .role-manager{
-      color: #AC76FF;
+color: #AC76FF;
 }
 
 #user-list .list .role-bouncer{
-      color: #AC76FF;
+color: #AC76FF;
 }
 
 #user-list .list .role-dj{
@@ -110,13 +120,113 @@ color: white;
 }
 
 .is-subscriber .name{
-      color: #C59840;
+color: #C59840;
 }
 
 .is-subscriber.silver .name{
-      color: #8694b2;
+color: #8694b2;
 }
 
 #user-lists .list .user:not(.is-staff) .name{
-      color: silver;
+color: silver;
 }
+
+/****************************************************************************************************************************/
+
+/* HEADER */
+
+.app-header{
+background: rgb(30, 30, 30);
+}
+
+#rs-skip-button{
+background: rgb(30, 30, 30) !important;
+transition: 0.4s;
+}
+
+#rs-skip-button:hover{
+box-shadow: inset 0px -4px #009CDD;
+}
+
+#history-button{
+background: rgb(30, 30, 30);
+transition: 0.4s;
+}
+
+#history-button:hover{
+box-shadow: inset 0px -4px #009CDD;
+}
+
+/****************************************************************************************************************************/
+
+/* MENU */
+
+#app-menu{
+background: rgb(30, 30, 30);
+transition: 0.4s;
+}
+
+#app-menu .list{
+background: rgb(30, 30, 30);
+}
+
+#app-menu .button{
+transition: 0.4s;
+}
+
+#app-menu .button:hover{
+box-shadow: inset 0px -4px #009CDD;
+}
+
+/*#app-menu.in-room .button i{
+background: url(https://fimplug.net/theme/images/logo.png);
+}*/
+
+/* APP RIGHT | CHAT */
+
+#room .app-right{
+background: rgb(30, 30, 30);
+}
+
+#chat-messages{
+background: rgb(30, 30, 30) !important;
+}
+
+#chat .cm{
+background: rgb(30, 30, 30) !important;
+}
+
+#chat .emote .text{
+font-style: normal;
+}
+
+#chat .welcome, #chat .emote{
+color: white;
+border: 1px solid #009CDD;
+background: transparent !important;
+}
+
+.header-panel-button.selected{
+box-shadow: inset 0px -4px #009CDD;
+transition: 0.4s;
+background: rgb(30, 30, 30);
+}
+
+/****************************************************************************************************************************/
+
+/* FOOTER */
+
+#footer{
+background: rgb(30, 30, 30);
+}
+
+#playlist-button{
+background: none;
+transition: 0.4s;
+}
+
+#playlist-button:hover{
+box-shadow: inset 0px -4px #009CDD;
+}
+
+/****************************************************************************************************************************/
