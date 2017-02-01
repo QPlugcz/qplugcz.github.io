@@ -36,7 +36,7 @@ bottom: 70px;
 }
 
 #room-settings-menu .item.selected{
-background: #226268;
+background: #009CDD;
 /*color: #42A5DC;*/
 transition: 0.4s;
 }
@@ -46,35 +46,35 @@ box-shadow: inset 4px 0px 0px silver;
 }
 
 #room-settings .general-settings .option button.off{
-background: #226268;
+background: #009CDD;
 color: white;
 }
 
 #room-settings .general-settings .option button.on{
-border: 1px solid #226268;
+border: 1px solid #009CDD;
 background: transparent;
 }
 
 #room-settings .general-settings .option.enabled button.off{
-border: 1px solid #226268;
+border: 1px solid #009CDD;
 background: transparent;
 }
 
 #room-settings .general-settings .option.enabled button.on{
-background: #226268;
+background: #009CDD;
 color: white;
 }
 
 .chat-level.option .dropdown{
 background: transparent;
-box-shadow: inset 0px 0px 0px 1px #226268;
+box-shadow: inset 0px 0px 0px 1px #009CDD;
 }
 
 .dropdown dd{
 background: rgb(30, 30, 30);
-border-left: 1px solid #226268;
-border-right: 1px solid #226268;
-border-bottom: 1px solid #226268;
+border-left: 1px solid #009CDD;
+border-right: 1px solid #009CDD;
+border-bottom: 1px solid #009CDD;
 }
 
 .dropdown dd .row{
