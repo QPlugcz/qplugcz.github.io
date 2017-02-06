@@ -373,6 +373,16 @@ API.sendChat("[ INFO ] Promote&Demote funckia je len pre náš akutálny Staff T
 }
 }
 
+API.on(API.CHAT, discord);
+function discord(data){
+var msg = data.message;
+var from = data.un;
+
+if(msg === ""+ prefix +"discord" || msg === ""+ prefix +"diskord"){
+API.sendChat("[ DISCORD ] Odkaz na náš Discord je https://bit.ly/QPlugczDiscord!");
+}
+}
+
 API.on(API.CHAT, event);
 function event(data){
 var msg = data.message;
@@ -410,7 +420,7 @@ function back(data){
 var msg = data.message;
 var from = data.un;
 
-if(msg === ""+ prefix +"back" || msg === ""+ prefix +"here"){
+if(msg === ""+ prefix +"back" || msg === ""+ prefix +"here" || msg === ""+ prefix +"spet"){
 API.sendChat("[ AFK ] Užívateľ @"+ from +" sa práve vrátil!");
 }
 }
