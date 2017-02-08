@@ -37,12 +37,21 @@ if(videooff.length > 0){
 videooff[0].click();
 }
 
-API.on(API.USER_JOIN, function(user) {
+API.on(API.USER_JOIN, function staff(user) {
+var from = user.username;
+var fromid = user.id;
+
+if (fromid === 4635487){
+API.sendChat("Zamestnanec "+ from +" sa práve pripojil do komunity! :blue_heart:");
+}
+});
+
+API.on(API.USER_JOIN, function vip(user) {
 var from = user.username;
 var fromid = user.id;
 
 if (fromid === 5154101){
-API.sendChat("Zamestnanec "+ from +" sa práve pripojil do komunity!");
+API.sendChat("VIP člen "+ from +" sa práve pripojil do komunity! :blue_heart:");
 }
 });
 
