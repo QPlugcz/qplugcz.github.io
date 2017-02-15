@@ -63,6 +63,20 @@ position: relative;
 left: -20px;
 }
 
+/* Kevinko */
+[data-cid^="4106134-"] .badge-box .bdg{
+background: url("http://i.imgur.com/LgS7kbA.png") !important;
+background-position: 0 0;
+}
+
+#user-rollover.id-4106134 .badge-box .bdg{
+border-radius: 5px !important;
+background-image: url("http://i.imgur.com/LgS7kbA.png") !important;
+background-repeat: round !important;
+background-size: 30px !important;
+}
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #user-rollover.id-4635487 .meta,
