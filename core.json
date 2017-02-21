@@ -1,56 +1,56 @@
 {
-"room":                     "QPlug.cz",
-"author":                   "QPlug.cz Team",
-"icon":                     "",
-"css":                      "https://qplugcz.github.io/style.css",
+    "room":                 "QPlug.cz",
+    "author":               "QPlug.cz Team",
+    "icon":                 "",
+    "css":                  "https://qplugcz.github.io/style.css",
 
-"rules": {
-        "allowAutorespond":     true,
-        "allowAutowoot":        true,
-        "allowAutojoin":        true,
-        "allowAutograb":        true,
-        "allowSmartVote":       true,
-        "allowEmotes":          true,
-        "allowShowingMehs":     true,
-        "forceSmartVote":       false
+"rules":{
+    "allowAutorespond":     true,
+    "allowAutowoot":        true,
+    "allowAutojoin":        true,
+    "allowAutograb":        true,
+    "allowSmartVote":       true,
+    "allowEmotes":          true,
+    "allowShowingMehs":     true,
+    "forceSmartVote":       false
 },
-    
-"ccc": {
-        "admin":                "#42A5DC",
-        "ambassador":           "#89BE6C",
-        "host":                 null,
-        "cohost":               null,
-        "manager":              null,
-        "bouncer":              null,
-        "rdj":                  null,
-        "subscriber":           null,
-        "silversubscriber":     null,
-        "friend":               null,
-        "user":                 null
+
+"ccc":{
+    "admin":                "#42A5DC",
+    "ambassador":           "#89BE6C",
+    "host":                 null,
+    "cohost":               null,
+    "manager":              null,
+    "bouncer":              null,
+    "rdj":                  null,
+    "subscriber":           null,
+    "silversubscriber":     null,
+    "friend":               null,
+    "user":                 null
 },
-    
- "images": {
-        "background":           null,
-        "playback":             null,
-        "admin":                null,
-        "ambassador":           null,
-        "host":                 "https://qplugcz.github.io/staff/qplug-host.png",
-        "cohost":               "https://qplugcz.github.io/staff/qplug-host.png",
-        "manager":              "https://qplugcz.github.io/staff/qplug-manager.png",
-        "bouncer":              "https://qplugcz.github.io/staff/qplug-bouncer.png",
-        "rdj":                  null,
-        "subscriber":           null,
-        "silversubscriber":     null
+
+"images":{
+    "background":           null,
+    "playback":             null,
+    "admin":                null,
+    "ambassador":           null,
+    "host":                 "https://qplugcz.github.io/staff/qplug-host.png",
+    "cohost":               "https://qplugcz.github.io/staff/qplug-host.png",
+    "manager":              "https://qplugcz.github.io/staff/qplug-manager.png",
+    "bouncer":              "https://qplugcz.github.io/staff/qplug-bouncer.png",
+    "rdj":                  null,
+    "subscriber":           null,
+    "silversubscriber":     null
 },
-    
-"emotes": {
-        "grabspopcorn": "https://qplugcz.github.io/emoji/grabspopcorn.gif",
-        "feelswaitman": "https://qplugcz.github.io/emoji/feelswaitman.gif",
-        "forsenpls": "https://qplugcz.github.io/emoji/forsenpls.gif",
-        "gachibass": "https://qplugcz.github.io/emoji/gachibass.gif",
-        "hahaa2": "https://qplugcz.github.io/emoji/hahaa2.gif",
-        "usmev": "https://qplugcz.github.io/emoji/usmev.png",
-        "zologasm": "https://qplugcz.github.io/emoji/zologasm.png",
-        "lul3d": "https://qplugcz.github.io/emoji/lul3d.gif"
+
+"emotes":{
+    "grabspopcorn":         "https://qplugcz.github.io/emoji/grabspopcorn.gif",
+    "feelswaitman":         "https://qplugcz.github.io/emoji/feelswaitman.gif",
+    "forsenpls":            "https://qplugcz.github.io/emoji/forsenpls.gif",
+    "gachibass":            "https://qplugcz.github.io/emoji/gachibass.gif",
+    "hahaa2":               "https://qplugcz.github.io/emoji/hahaa2.png",
+    "usmev":                "https://qplugcz.github.io/emoji/usmev.png",
+    "zologasm":             "https://qplugcz.github.io/emoji/zologasm.png",
+    "lul3d":                "https://qplugcz.github.io/emoji/lul3d.gif"
 }
 }
