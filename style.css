@@ -276,6 +276,46 @@ background: -webkit-linear-gradient(-45deg,#0f0f0f 0,#0f0f0f 13%,#0f0f0f 100%) !
 border-left: 4px solid #AC76FF;
 }
 
+/* FRIENDS | Original code by -PinguiN- (https://plug.dj/@/-pinguin-) */
+
+.app-right .friends .list .row .room{
+transition: 0.5s;
+right: -6px;
+}
+
+.app-right .friends .list .row .room:hover{
+background: #009CDD;
+color: #fff;
+padding: 10px;
+top: -10px;
+}
+
+.app-right .friends .list .row{
+transition: 0.5s;
+}
+
+.app-right .friends .list .row:hover{
+background: rgba(0, 156, 221, 0.3) !important;
+box-shadow: inset 4px 0px 0px #009CDD;
+}
+
+.app-right .friends .list .row.clickable .room:hover{
+text-decoration: none;
+}
+
+.app-right .friends .list .row.is-offline{
+transition: 0.5s;
+}
+
+.app-right .friends .list .row.is-offline:hover{
+box-shadow: inset 4px 0px 0px #CC5151;
+background: rgba(204,81,81,0.2) !important;
+}
+
+.app-right .friends .list .row.is-offline .room:hover{
+background: #CC5151 !important;
+}
+
 /****************************************************************************************************************************/
 
 /* FOOTER */
