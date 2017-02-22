@@ -1,16 +1,21 @@
-/*    COPYRIGHT»                         QPlug.cz 2017
-      DEVELOPERS»                        Hellbyte
-      ROOM»                              https://plug.dj/plugdj-czsk
+/*
 
-      Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
--     Marvin (xBytez)
--     Dom (Origin)
--     Brett (sinful)
+COPYRIGHT»                         QPlug.cz 2017
+CREATOR»                           Hellbyte
+DEVELOPERS»                        Hellbyte
+ROOM»                              https://plug.dj/qplug-czsk
+
+Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
+- Marvin (xBytez)
+- Dom (Origin)
+- Brett (sinful)
+
 */
 
 @import url("https://qplugcz.github.io/staff/elitebouncer/style.css");
 
 /* Hellbyte */
+
 #user-rollover.id-4635487 .thumb.large .avi{
 visibility: hidden;
 }
@@ -32,10 +37,9 @@ background-repeat: round !important;
 background-size: 30px !important;
 }
 
+/****************************************************************************************************************************/
+
 /* QPlug.cz */
-[data-cid^="23843691-"] span.un.clickable{
-color: #FFFFFF !important;
-}
 
 #user-rollover.id-23843691 .info .role span{
 visibility: hidden;
@@ -51,7 +55,8 @@ right: 2px;
 
 #user-rollover.id-23843691 .info .role i{
 position: relative;
-left: 32px;
+left: 33px;
+top: 1px;
 }
 
 [data-cid^="23843691-"] .msg .from .icon-chat-manager{
@@ -63,7 +68,16 @@ position: relative;
 left: -20px;
 }
 
+[data-cid^="23843691-"] .msg{
+border-left: 4px solid #009CDD;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+/****************************************************************************************************************************/
+
 /* Kevinko */
+
 [data-cid^="4106134-"] .badge-box .bdg{
 background: url("http://i.imgur.com/LgS7kbA.png") !important;
 background-position: 0 0;
@@ -75,7 +89,6 @@ background-image: url("http://i.imgur.com/LgS7kbA.png") !important;
 background-repeat: round !important;
 background-size: 30px !important;
 }
-
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
