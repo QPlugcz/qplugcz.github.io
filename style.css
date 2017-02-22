@@ -1,0 +1,408 @@
+/*
+
+COPYRIGHT»                         QPlug.cz 2017
+CREATOR»                           Hellbyte
+DEVELOPERS»                        Hellbyte
+ROOM»                              https://plug.dj/qplug-czsk
+
+Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
+- Marvin (xBytez)
+- Dom (Origin)
+- Brett (sinful)
+
+*/
+
+@import url("https://qplugcz.github.io/staff/style.css");
+@import url("https://qplugcz.github.io/vip/style.css");
+
+body{
+font-family:Tahoma, sans-serif;
+}
+
+/* DASHBOARD */
+
+#dashboard{
+background: rgba(15, 15, 15, 0.95) !important;
+}
+
+.communities .grid .cell .meta .join{
+background: none !important;
+}
+
+.communities .grid .cell:hover>.meta{
+background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.communities .grid .cell .bar, .communities .grid .cell .favorite, .communities .grid .cell .meta, .communities .grid .cell{
+background: #000 !important;
+}
+
+.communities .grid .cell .favorite .icon-grab{
+background-position: -40px -280px !important;
+}
+
+#dashboard .tab-menu button.selected{
+box-shadow: inset 0px -3px #009CDD;
+background: none;
+}
+
+#dashboard .tab-menu button{
+background: none !important;
+}
+
+#dashboard .tab-menu button:not(.selected){
+box-shadow: inset 0px -3px rgb(30,30,30);
+}
+
+#dashboard .tab-menu button:not(.selected):hover{
+color: #808691;
+}
+
+.communities .grid .cell .meta .host{
+background: none;
+}
+
+#dashboard .search{
+background: transparent;
+}
+
+#dashboard .search.focused{
+box-shadow: inset 0 0 0 1px #323742 !important;
+}
+
+/****************************************************************************************************************************/
+
+/* ROOM SETTINGS */
+
+#room-settings{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#room-settings-menu{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#room-settings-menu .item.selected{
+box-shadow: inset 0px -3px #009CDD;
+background: none;
+}
+
+#room-settings .general-settings .option button.off{
+background: none;
+box-shadow: inset 0px -3px #009CDD;
+}
+
+#room-settings .general-settings .input-background.focused{
+background: none;
+}
+
+#room-settings .general-settings .option button.on{
+background: none;
+}
+
+.chat-level.option .dropdown{
+background: transparent;
+box-shadow: inset 0px -3px #009CDD;
+}
+
+.dropdown dd{
+background: none;
+border-left: 1px solid #009CDD;
+border-right: 1px solid #009CDD;
+border-bottom: 1px solid #009CDD;
+}
+
+.dropdown dd .row{
+background: rgba(15, 15, 15, 0.95);
+color: #808691;
+}
+
+.dropdown dd .row:hover{
+background: rgba(15, 15, 15, 0.95);
+color: white;
+}
+
+#room-settings .general-settings .description .value a:last-of-type{
+display: none !important;
+}
+
+#room-settings .general-settings .description .value:after{
+content: "Nedostupné!";
+color: gray;
+}
+
+#room-settings .general-settings a{
+color: #009CDD; !important;
+text-decoration: none;
+}
+
+#room-settings .general-settings{
+position: relative;
+background: url("https://hellbyte.github.io/qplug-mlogo.png");
+background-repeat: no-repeat;
+background-position: 50% 300px;
+}
+
+/****************************************************************************************************************************/
+
+/* USER LIST */
+
+#user-list .list .role-host{
+color: #AC76FF;
+}
+
+#user-list .list .role-cohost{
+color: #AC76FF;
+}
+
+#user-list .list .role-manager{
+color: #AC76FF;
+}
+
+#user-list .list .role-bouncer{
+color: #AC76FF;
+}
+
+#user-list .list .role-dj{
+color: #AC76FF;
+}
+
+.is-subscriber .name{
+color: #C59840;
+}
+
+#user-lists .list .user:not(.is-staff) .name{
+color: silver;
+}
+
+#user-list .list .is-subscriber.silver .name{
+color: red !important;
+}
+
+#user-lists .list .user:not(.is-staff) .name{
+color: silver;
+}
+
+/****************************************************************************************************************************/
+
+/* HEADER */
+
+.app-header{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#rs-skip-button{
+background: rgba(15, 15, 15, 0.95) !important;
+transition: 0.4s;
+}
+
+#rs-skip-button:hover{
+box-shadow: inset 0px -3px #009CDD;
+}
+
+#history-button{
+background: rgba(15, 15, 15, 0.95);
+transition: 0.4s;
+}
+
+#history-button:hover{
+box-shadow: inset 0px -3px #009CDD;
+}
+
+/****************************************************************************************************************************/
+
+/* MENU | LOGO */
+
+#app-menu{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#app-menu .list{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#app-menu.in-room .button i{
+background: url("https://hellbyte.github.io/qplug-mlogo.png");
+}
+
+#app-menu .list:after{
+position: relative;
+content: "\A" url("http://www.pukiibank.com/images/fb.jpg") " bit.ly/QPlugcz";
+top: 10px;
+left: 10px;
+display: block;
+}
+
+/****************************************************************************************************************************/
+
+/* APP RIGHT | CHAT */
+
+#room .app-right{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#chat-messages{
+background: rgba(15, 15, 15, 0.95) !important;
+}
+
+#chat .cm{
+background: rgba(15, 15, 15, 0.95) !important;
+}
+
+#chat .emote .text{
+font-style: normal;
+}
+
+#chat .welcome{
+color: white;
+border: 1px solid #009CDD;
+background: transparent !important;
+}
+
+.header-panel-button.selected{
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+background: rgba(15, 15, 15, 0.95);
+}
+
+/****************************************************************************************************************************/
+
+/* FOOTER */
+
+#footer{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#playlist-button{
+background: none;
+transition: 0.4s;
+}
+
+#playlist-button:hover{
+box-shadow: inset 0px -3px #009CDD;
+}
+
+/****************************************************************************************************************************/
+
+/* PLAYBACK */
+
+#playback-controls div.button.refresh, #playback-controls div.button.hd, #playback-controls div.button.snooze, #playback-controls div.button.stream { 
+background: rgba(28,31,37,.7) !important; 
+}
+
+#playback .background{
+visibility: hidden;
+}
+
+/****************************************************************************************************************************/
+
+/* APP SETTINGS */
+
+#user-menu{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-menu .item.profile{
+color: gray;
+}
+
+#user-menu .item.profile.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.inventory.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.inventory{
+color: gray;
+}
+
+#user-menu .item.store.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.store{
+color: gray;
+}
+
+#user-menu .item.friends.notify.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.friends.notify{
+color: gray;
+}
+
+#user-menu .item.played.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.played{
+color: gray;
+}
+
+#user-menu .item.community.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.community{
+color: gray;
+}
+
+#user-menu .item.settings.selected{
+background: transparent;
+color: white;
+box-shadow: inset 0px -3px #009CDD;
+transition: 0.4s;
+}
+
+#user-menu .item.settings{
+color: gray;
+}
+
+#the-user-profile{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-inventory{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-store{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-friends{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-history{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-communities{
+background: rgba(15, 15, 15, 0.95);
+}
+
+#user-settings{
+background: rgba(15, 15, 15, 0.95);
+}
