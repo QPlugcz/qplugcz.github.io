@@ -16,7 +16,7 @@ Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Admini
 @import url("https://qplugcz.github.io/vip/style.css");
 
 body{
-font-family:Tahoma, sans-serif;
+font-family: Tahoma, sans-serif;
 }
 
 /* DASHBOARD */
@@ -68,6 +68,11 @@ background: transparent;
 
 #dashboard .search.focused{
 box-shadow: inset 0 0 0 1px #323742 !important;
+}
+
+#room-name{
+font-family: "Open Sans", sans-serif;
+top: 5px;
 }
 
 /****************************************************************************************************************************/
