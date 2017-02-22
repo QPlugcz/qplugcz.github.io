@@ -232,7 +232,7 @@ background: url("https://hellbyte.github.io/qplug-mlogo.png");
 
 #app-menu .list:after{
 position: relative;
-content: "\A" url("http://www.pukiibank.com/images/fb.jpg") " bit.ly/QPlugcz";
+content: "\A" url("https://qplugcz.github.io/icons/qplug-facebook.png") " bit.ly/QPlugcz";
 top: 10px;
 left: 10px;
 display: block;
