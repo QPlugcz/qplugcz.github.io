@@ -1,11 +1,26 @@
+/*
+
+COPYRIGHT»                         QPlug.cz 2017
+CREATOR»                           Hellbyte
+DEVELOPERS»                        Hellbyte
+ROOM»                              https://plug.dj/qplug-czsk
+
+Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Administrátormi plug.dj!
+- Marvin (xBytez)
+- Dom (Origin)
+- Brett (sinful)
+
+*/
+
 #user-lists .list .user.id-3664742:not(.is-staff) .name:before{
-content: url("https://qplugcz.github.io/vip/qplug-vip.png")"  " !important;
-top: 3px;
+content: url("https://qplugcz.github.io/vip/qplug-vip.png")" " !important;
+padding-right: 5px;
+top: -0.3px;
 left: -3px;
 position: relative;
 }
 
 #user-lists .list .user.id-3664742:not(.is-staff) .name{
-left: 15px;
-color: #C42E3B;
+left: 17px;
+color: #CC5151;
 }
