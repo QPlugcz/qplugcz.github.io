@@ -30,7 +30,7 @@
 },
 
 "images":{
-    "background":           null,
+    "background":           "https://qplugcz.github.io/icons/qplug-background.png",
     "playback":             null,
     "admin":                null,
     "ambassador":           null,
