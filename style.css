@@ -132,7 +132,7 @@ display: none !important;
 }
 
 #room-settings .general-settings .description .value:after{
-content: "Nedostupné!";
+content: " Nedostupné!";
 color: gray;
 }
 
