@@ -324,13 +324,66 @@ background: #CC5151 !important;
 background: rgba(15, 15, 15, 0.95);
 }
 
-#playlist-button{
-background: none;
+#footer-user .back{
+background: transparent;
+color: gray;
 transition: 0.4s;
+right: -6px;
 }
 
-#playlist-button:hover{
-box-shadow: inset 0px -3px #009CDD;
+#footer-user .back:hover{
+background: transparent;
+color: white;
+padding: 10px;
+}
+
+#footer-user .buttons .button{
+-webkit-box-shadow: inset 0 0 !important;
+-moz-box-shadow: inset 0 0 !important;
+-o-box-shadow: inset 0 0 !important;
+box-shadow: inset 0 0 !important;
+}
+
+#footer-user .inventory{
+color: rgba(15, 15, 15, 0.95);
+} 
+
+#footer-user .badge{
+color: rgba(15, 15, 15, 0.95) !important;
+} 
+
+#footer-user .store{
+color: rgba(15, 15, 15, 0.95) !important;
+} 
+
+#footer-user .profile{
+color: rgba(15, 15, 15, 0.95) !important;
+} 
+
+#footer-user .settings{
+color: rgba(15, 15, 15, 0.95) !important;
+} 
+
+#footer-user .inventory, #footer-user .badge, #footer-user .store, #footer-user .profile, #footer-user .settings{
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+-o-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+
+#footer-user{
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+#footer-user .inventory:hover, #footer-user .badge:hover, #footer-user .store:hover, #footer-user .profile:hover, #footer-user .settings:hover{
+background: transparent !important;
+-webkit-box-shadow: inset 0px -3px 0px #009CDD !important;
+-moz-box-shadow: inset 0px -3px 0px #009CDD !important;
+-o-box-shadow: inset 0px -3px 0px #009CDD !important;
+box-shadow: inset 0px -3px 0px #009CDD !important;
 }
 
 /****************************************************************************************************************************/
@@ -457,3 +510,18 @@ background: rgba(15, 15, 15, 0.95);
 #user-settings{
 background: rgba(15, 15, 15, 0.95);
 }
+
+/****************************************************************************************************************************/
+
+/* PLAYLIST */
+
+#playlist-button{
+background: none;
+transition: 0.4s;
+}
+
+#playlist-button:hover{
+box-shadow: inset 0px -3px #009CDD;
+}
+
+/****************************************************************************************************************************/
