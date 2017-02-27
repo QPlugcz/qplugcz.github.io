@@ -538,7 +538,7 @@ box-shadow: inset 0px -3px #009CDD;
 /* HLASOVANIE */
 
 #woot.crowd-response.disabled.active, #grab.crowd-response.disabled.active, #meh.crowd-response.disabled.active{
-background: #252525;
+background: rgba(15, 15, 15, 0.95);
 }
 
 #woot .bottom{
@@ -554,11 +554,11 @@ background: #FF5555;
 }
 
 #vote .crowd-response.disabled .bottom{
-background: #252525;
+background: rgba(15, 15, 15, 0.95);
 }
 
 #woot.crowd-response.active.selected, #grab.crowd-response.active.selected, #meh.crowd-response.active.selected{
-background: #252525;
+background: rgba(15, 15, 15, 0.95);
 }
 
 #woot.crowd-response.active.selected .bottom{
@@ -577,7 +577,7 @@ transition: 0.5s;
 }
 
 #woot.crowd-response, #grab.crowd-response, #meh.crowd-response{
-background: #252525;
+background: rgba(15, 15, 15, 0.95);
 }
 
 /****************************************************************************************************************************/
