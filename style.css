@@ -264,6 +264,15 @@ border: 1px solid #009CDD;
 background: transparent !important;
 }
 
+#chat-input-field{
+font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
+#chat-input, #chat-input.focused{
+background: none;
+box-shadow: inset 0 0 0 1px #323742 !important;
+}
+
 .header-panel-button.selected{
 box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
