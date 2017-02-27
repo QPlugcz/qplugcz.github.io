@@ -525,3 +525,50 @@ box-shadow: inset 0px -3px #009CDD;
 }
 
 /****************************************************************************************************************************/
+
+/* HLASOVANIE */
+
+#woot.crowd-response.disabled.active, #grab.crowd-response.disabled.active, #meh.crowd-response.disabled.active{
+background: #252525;
+}
+
+#woot .bottom{
+background: #90AD2F;
+}
+
+#grab .bottom{
+background: #AA74FF;
+}
+
+#meh .bottom{
+background: #FF5555;
+}
+
+#vote .crowd-response.disabled .bottom{
+background: #252525;
+}
+
+#woot.crowd-response.active.selected, #grab.crowd-response.active.selected, #meh.crowd-response.active.selected{
+background: #252525;
+}
+
+#woot.crowd-response.active.selected .bottom{
+box-shadow: inset 0px 3px 0px #90AD2F;
+transition: 0.5s;
+}
+
+#grab.crowd-response.active.selected .bottom{
+box-shadow: inset 0px 3px 0px #AA74FF;
+transition: 0.5s;
+}
+
+#meh.crowd-response.active.selected .bottom{
+box-shadow: inset 0px 3px 0px #FF5555;
+transition: 0.5s;
+}
+
+#woot.crowd-response, #grab.crowd-response, #meh.crowd-response{
+background: #252525;
+}
+
+/****************************************************************************************************************************/
