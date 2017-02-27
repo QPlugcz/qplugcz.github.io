@@ -26,13 +26,13 @@ background: url("http://musicforeveryone.6f.sk/img/avatars/blue-dragon.png");
 }
 
 [data-cid^="4635487-"] .badge-box .bdg{
-background: url('http://i.imgur.com/3C1Xenu.png') !important;
+background: url("https://hellbyte.github.io/h.png") !important;
 background-position: 0 0;
 }
 
 #user-rollover.id-4635487 .badge-box .bdg{
 border-radius: 5px !important;
-background-image: url("http://i.imgur.com/3C1Xenu.png") !important;
+background-image: url("https://hellbyte.github.io/h.png") !important;
 background-repeat: round !important;
 background-size: 30px !important;
 }
