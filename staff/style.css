@@ -16,15 +16,6 @@ Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Admini
 
 /* Hellbyte */
 
-#user-rollover.id-4635487 .thumb.large .avi{
-visibility: hidden;
-}
-
-#user-rollover.id-4635487 .thumb.large .avi{
-visibility: visible;
-background: url("http://musicforeveryone.6f.sk/img/avatars/blue-dragon.png");
-}
-
 [data-cid^="4635487-"] .badge-box .bdg{
 background: url("https://hellbyte.github.io/h.png") !important;
 background-position: 0 0;
@@ -76,19 +67,7 @@ border-bottom-left-radius: 5px;
 
 /****************************************************************************************************************************/
 
-/* Kevinko */
-
-[data-cid^="4106134-"] .badge-box .bdg{
-background: url("http://i.imgur.com/LgS7kbA.png") !important;
-background-position: 0 0;
-}
-
-#user-rollover.id-4106134 .badge-box .bdg{
-border-radius: 5px !important;
-background-image: url("http://i.imgur.com/LgS7kbA.png") !important;
-background-repeat: round !important;
-background-size: 30px !important;
-}
+/* */
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
