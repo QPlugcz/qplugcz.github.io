@@ -417,6 +417,7 @@ background: rgba(15, 15, 15, 0.95);
 
 #user-menu .item.profile{
 color: gray;
+transition: 0.4s;
 }
 
 #user-menu .item.profile.selected{
@@ -426,6 +427,10 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.profile:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.inventory.selected{
 background: transparent;
 color: white;
@@ -433,8 +438,13 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.inventory:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.inventory{
 color: gray;
+transition: 0.4s;
 }
 
 #user-menu .item.store.selected{
@@ -444,8 +454,13 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.store:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.store{
 color: gray;
+transition: 0.4s;
 }
 
 #user-menu .item.friends.notify.selected{
@@ -455,8 +470,13 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.friends.notify:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.friends.notify{
 color: gray;
+transition: 0.4s;
 }
 
 #user-menu .item.played.selected{
@@ -466,8 +486,13 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.played:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.played{
 color: gray;
+transition: 0.4s;
 }
 
 #user-menu .item.community.selected{
@@ -477,8 +502,13 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.community:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.community{
 color: gray;
+transition: 0.4s;
 }
 
 #user-menu .item.settings.selected{
@@ -488,8 +518,13 @@ box-shadow: inset 0px -3px #009CDD;
 transition: 0.4s;
 }
 
+#user-menu .item.settings:not(.selected):hover{
+margin-left: 5px;
+}
+
 #user-menu .item.settings{
 color: gray;
+transition: 0.4s;
 }
 
 #the-user-profile{
