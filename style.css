@@ -555,6 +555,15 @@ background: rgba(15, 15, 15, 0.95);
 background: rgba(15, 15, 15, 0.95);
 }
 
+#user-settings .container .item span{
+transition: 0.4s;
+}
+
+#user-settings .container .item span:hover{
+padding-left: 5px;
+}
+
+
 /****************************************************************************************************************************/
 
 /* PLAYLIST */
