@@ -27,53 +27,12 @@ color: #CC5151;
 
 /* REPI */
 
-#user-rollover.id-22368924 .meta:before {
-position: absolute;
-font-family: Tahoma, Geneva, sans-serif;
-content: "\A" "VIP";
-color: #F70000;
-font-size: 8pt;
-top: 110.5px;
-left: 125px;
-cursor: text;
-}
-
-#user-rollover.id-22368924 .meta:after {
-position: absolute;
-content: url("https://vgy.me/23mtoK.png");
-top: 110px;
-left: 108px;
-}
-
-[data-cid^="22368924-"] .msg .from .un:before {
-content: " VIP ";
-color: #F70000;
-}
-
-#user-rollover.id-22368924 .meta {
-height: 125px !important;
-}
-
-#user-lists .list .user.id-22368924 .name:before {
-content: "VIP ";
-color: #F70000;
-}
-
-[data-cid^="22368924-"] .badge-box .bdg {
-background: url('https://vgy.me/gILP7W.gif') !important;
+[data-cid^="22368924-"] .badge-box .bdg{
+background: url("https://vgy.me/gILP7W.gif") !important;
 background-position: 0 0;
 }
 
-.bdg.g, #user-rollover.id-22368924 {
-background: url('https://vgy.me/gILP7W.gif') !important;
-background-position: 0 0;
-}
-
-[data-cid^="22368924-"] .badge-box {
-background: none;
-}
-
-#user-rollover.id-22368924 .badge-box .bdg {
+#user-rollover.id-22368924 .badge-box .bdg{
 border-radius: 5px !important;
 background-image: url("https://vgy.me/gILP7W.gif") !important;
 background-repeat: round !important;
