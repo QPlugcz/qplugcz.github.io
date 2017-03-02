@@ -83,6 +83,24 @@ background-size: 30px !important;
 
 /****************************************************************************************************************************/
 
+/* Atti */
+
+[data-cid^="13505684-"] .badge-box .bdg{
+background: url("https://qplugcz.github.io/badges/atti.jpg") !important;
+background-position: 0 0;
+background-size: 30px !important;
+background-repeat: round !important;
+}
+
+#user-rollover.id-13505684 .badge-box .bdg{
+border-radius: 5px !important;
+background-image: url("https://qplugcz.github.io/badges/atti.jpg") !important;
+background-repeat: round !important;
+background-size: 30px !important;
+}
+
+/****************************************************************************************************************************/
+
 #user-rollover.id-4635487 .meta,
 #user-rollover.id- .meta,
 #user-rollover.id- .meta,
