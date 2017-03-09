@@ -40,3 +40,20 @@ background-size: 30px !important;
 }
 
 /****************************************************************************************************************************/
+
+/* DerpgonCz*/
+
+[data-cid^="4183729-"] .badge-box .bdg{
+background: url("https://qplugcz.github.io/badges/derpgoncz.png") !important;
+background-position: 0 0;
+}
+
+#user-rollover.id-4183729 .badge-box .bdg{
+border-radius: 5px !important;
+background-image: url("https://qplugcz.github.io/badges/derpgoncz.png") !important;
+background-repeat: round !important;
+background-size: 30px !important;
+}
+
+/****************************************************************************************************************************/
+
