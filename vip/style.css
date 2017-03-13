@@ -56,11 +56,6 @@ background-size: 30px !important;
 
 /*Dave*/
 
-#user-lists .list .user.id-3664742:not(.is-staff) .name{
-left: 17px;
-color: #009CDD !important;
-}
-
 [data-cid^="3431885-"] .badge-box .bdg{
 background: url("https://qplugcz.github.io/badges/vip_blue_badge.png") !important;
 background-position: 0 0;
