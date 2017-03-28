@@ -17,7 +17,7 @@ Akékoľvek kopírovanie tohoto obsahu alebo dokumentu sa bude riešiť s Admini
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 html, body{
-font-family: 'Roboto', sans-serif;
+font-family: "Roboto", sans-serif;
 }
 
 /* DASHBOARD */
@@ -274,7 +274,7 @@ background: transparent !important;
 }
 
 #chat-input-field{
-font-family: Geneva,Tahoma,Verdana,sans-serif;
+font-family: "Roboto", sans-serif;
 }
 
 #chat-input, #chat-input.focused{
