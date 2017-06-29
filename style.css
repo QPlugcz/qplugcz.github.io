@@ -203,6 +203,52 @@ color: #AC76FF;
 
 /****************************************************************************************************************************/
 
+/* Hosts */
+#user-lists .list.staff .user:nth-child(2) .name:before{
+position: absolute;
+top: 2px;
+left: -20px;
+
+content: url("https://qplugcz.github.io/staff/qplug-host.png")" " !important;
+}
+
+#user-lists .list.staff .user:nth-child(3) .name:before{
+position: absolute;
+top: 2px;
+left: -20px;
+
+content: url("https://qplugcz.github.io/staff/qplug-host.png")" " !important;
+}
+
+#user-lists .list.staff .user:nth-child(4) .name:before{
+position: absolute;
+top: 2px;
+left: -20px;
+
+content: url("https://qplugcz.github.io/staff/qplug-host.png")" " !important;
+}
+
+#user-lists .list.staff .user:nth-child(5) .name:before{
+position: absolute;
+top: 2px;
+left: -20px;
+
+content: url("https://qplugcz.github.io/staff/qplug-host.png")" " !important;
+}
+
+/****************************************************************************************************************************/
+
+/* Bouncers */
+#user-lists .list.staff .user:nth-child(7) .name:before{
+position: absolute;
+top: 2px;
+left: -20px;
+
+content: url("https://qplugcz.github.io/staff/qplug-bouncer.png")" " !important;
+}
+
+/****************************************************************************************************************************/
+
 /* Header */
 
 .app-header{
@@ -641,7 +687,7 @@ background: rgba(15, 15, 15, 0.95);
 
 /****************************************************************************************************************************/
 
-/* DJ Tlačidlo */
+/* DJ Button */
 
 #dj-button{
 background: rgba(15, 15, 15, 0.95);
