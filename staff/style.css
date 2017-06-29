@@ -11,7 +11,7 @@ ROOM»                              https://plug.dj/qplug-czsk
 
 /* Hellbyte */
 
-[data-cid^="4635487-"] .badge-box .bdg{
+/* [data-cid^="4635487-"] .badge-box .bdg{
 background: url("https://hellbyte.github.io/h.png") !important;
 background-position: 0 0;
 }
@@ -21,7 +21,7 @@ border-radius: 5px !important;
 background-image: url("https://hellbyte.github.io/h.png") !important;
 background-repeat: round !important;
 background-size: 30px !important;
-}
+} */
 
 /****************************************************************************************************************************/
 
@@ -45,7 +45,7 @@ left: 33px;
 top: 1px;
 }
 
-[data-cid^="23843691-"] .msg .from .icon-chat-manager{
+[data-cid^="23843691-"] .msg .from .icon-chat-host{
 visibility: hidden;
 }
 
