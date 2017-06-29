@@ -11,7 +11,7 @@
     "allowAutograb":        true,
     "allowSmartVote":       true,
     "allowEmotes":          true,
-    "allowShowingMehs":     true,
+    "allowShowingMehs":     false,
     "forceSmartVote":       false
 },
 
@@ -55,10 +55,8 @@
     "karac":                "https://qplugcz.github.io/emoji/karamelc.png",
     "karaha":               "https://qplugcz.github.io/emoji/karaha.png",
     "banik":                "https://qplugcz.github.io/emoji/banik.gif",
-    "resttlul":             "https://qplugcz.github.io/emoji/resttlul.png",
-    "qshrug":               "https://qplugcz.github.io/emoji/qshrug.png",
     "qaww":                 "https://qplugcz.github.io/emoji/qaww.png",
-    "disgonbgud":           "https://qplugcz.github.io/emoji/disgonbgud.gif",
+    "jackson":           "https://qplugcz.github.io/emoji/disgonbgud.gif",
     "feelsnayman":          "https://qplugcz.github.io/emoji/feelsnayman.gif",
     "resttha":              "https://qplugcz.github.io/emoji/resttha.png",
     "t3d":                  "https://qplugcz.github.io/emoji/t3d.gif",
