@@ -293,8 +293,7 @@ background: rgba(15, 15, 15, 0.95);
 }
 
 #chat .mention .msg{
-background: linear-gradient(135deg,#0f0f0f 0,#0f0f0f 13%,#0f0f0f 100%) !important;
-background: -webkit-linear-gradient(-45deg,#0f0f0f 0,#0f0f0f 13%,#0f0f0f 100%) !important;
+background-color: #212328;
 border-left: 4px solid #AC76FF;
 }
 
