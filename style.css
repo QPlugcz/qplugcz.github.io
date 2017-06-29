@@ -20,7 +20,7 @@ html, body{
 font-family: "Roboto", sans-serif;
 }
 
-/* DASHBOARD */
+/* Dashboard */
 
 #dashboard{
 background: rgba(15, 15, 15, 0.95) !important;
@@ -78,7 +78,7 @@ top: 5px;
 
 /****************************************************************************************************************************/
 
-/* ROOM SETTINGS */
+/* Room settings */
 
 #room-settings{
 background: rgba(15, 15, 15, 0.95);
@@ -151,7 +151,7 @@ background-position: 47% 325px;
 
 /****************************************************************************************************************************/
 
-/* USER LIST */
+/* User list */
 
 #user-list .list .role-host{
 color: #AC76FF;
@@ -199,7 +199,7 @@ box-shadow: inset 3px 0px 0px rgba(172, 118, 255, 0.7);
 
 /****************************************************************************************************************************/
 
-/* HEADER */
+/* Header */
 
 .app-header{
 background: rgba(15, 15, 15, 0.95);
@@ -225,7 +225,7 @@ box-shadow: inset 0px -3px #009CDD;
 
 /****************************************************************************************************************************/
 
-/* MENU | LOGO */
+/* Menu & Logo */
 
 #app-menu{
 background: rgba(15, 15, 15, 0.95);
@@ -249,7 +249,7 @@ display: block;
 
 /****************************************************************************************************************************/
 
-/* APP RIGHT | CHAT */
+/* Chat */
 
 #room .app-right{
 background: rgba(15, 15, 15, 0.95);
@@ -294,7 +294,7 @@ background: -webkit-linear-gradient(-45deg,#0f0f0f 0,#0f0f0f 13%,#0f0f0f 100%) !
 border-left: 4px solid #AC76FF;
 }
 
-/* FRIENDS | Original code by -PinguiN- (https://plug.dj/@/-pinguin-) */
+/* Friends */
 
 .app-right .friends .list .row .room{
 transition: 0.5s;
@@ -336,7 +336,7 @@ background: #CC5151 !important;
 
 /****************************************************************************************************************************/
 
-/* FOOTER */
+/* Footer */
 
 #footer{
 background: rgba(15, 15, 15, 0.95);
@@ -406,7 +406,7 @@ box-shadow: inset 0px -3px 0px #009CDD !important;
 
 /****************************************************************************************************************************/
 
-/* PLAYBACK */
+/* Playback */
 
 #playback-controls div.button.refresh, #playback-controls div.button.hd, #playback-controls div.button.snooze, #playback-controls div.button.stream { 
 background: rgba(28,31,37,.7) !important; 
@@ -418,7 +418,7 @@ visibility: hidden;
 
 /****************************************************************************************************************************/
 
-/* APP SETTINGS */
+/* plug.dj settings */
 
 #user-menu{
 background: rgba(15, 15, 15, 0.95);
@@ -574,7 +574,7 @@ padding-left: 5px;
 
 /****************************************************************************************************************************/
 
-/* PLAYLIST */
+/* Playlist */
 
 #playlist-button{
 background: none;
@@ -587,14 +587,10 @@ box-shadow: inset 0px -3px #009CDD;
 
 /****************************************************************************************************************************/
 
-/* HLASOVANIE */
+/* Hlasovanie */
 
 #vote{
 transition: 0.6s;
-}
-
-#vote:hover{
-margin-top: -15px;
 }
 
 #woot.crowd-response.disabled.active, #grab.crowd-response.disabled.active, #meh.crowd-response.disabled.active{
@@ -642,7 +638,7 @@ background: rgba(15, 15, 15, 0.95);
 
 /****************************************************************************************************************************/
 
-/* DJ BUTTON */
+/* DJ Tlačidlo */
 
 #dj-button{
 background: rgba(15, 15, 15, 0.95);
@@ -661,8 +657,7 @@ transition: 0.6s;
 }
 
 #dj-button:hover{
-margin-top: -15px;
-border-bottom-right-radius: 0;
+letter-spacing: 1px;
 }
 
 #dj-button.is-quit .left, #dj-button.is-leave .left{
